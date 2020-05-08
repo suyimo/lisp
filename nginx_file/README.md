@@ -14,6 +14,8 @@ git clone -b 2.3.0 https://github.com/vkholodkov/nginx-upload-module.git
  brew install nginx-full --with-upload-module --with-upload-progress-module
  
  brew services start denji/nginx/nginx-full
+ 
+ brew reinstall nginx-full --with-lua-module --with-upload-module --with-upload-progress-module
 ```
 
 
